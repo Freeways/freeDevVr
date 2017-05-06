@@ -1,49 +1,157 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+        <title>VR Presentation</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+        <link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/beige.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+        <!-- Theme used for syntax highlighting of code -->
+        <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+        <!-- Printing and PDF exports -->
+        <script>
+            var link = document.createElement('link');
+            link.rel = 'stylesheet';
+            link.type = 'text/css';
+            link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+            document.getElementsByTagName('head')[0].appendChild(link);
+        </script>
+    </head>
+    <body>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <h1>VR & Immersive Media</h1>
+                    <p>
+                        <small>By</small> <a href="https://twitter.com/bnemlaghi">Bechir Nemlaghi</a><small> with love!</small>
+                    </p>
+                </section>
+                <section>
+                    <h2>Disclaimer</h2>
+                </section>
+                <section>
+                    <h2>Introduction</h2>
+                    <p class="fragment">Since the invention of TV we consume flat based media.</p>
+                    <p class="fragment">Would the VR be the game changer?</p>
+                </section>
+                <section>
+                    <h2>VR AR MR</h2>
+                    <section>
+                        <p>Immersive Media is attached to many acronymes.</p>
+                        <p class="fragment">Due to those technologies being new, the following definitions are still a matter of debate.</p>
+                    </section>
+                    <section>
+                        <h3>Virtual reality (VR)</h3>
+                        <ul>
+                            <li class="fragment fade-up">Fully CG</li>
+                            <li class="fragment fade-up">Requires a special headset <small>for now</small></li>
+                            <li class="fragment fade-up">The user is inside the virtual world</li>
+                            <li class="fragment fade-up">VR apps & games</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Augmented Reality (AR)</h3>
+                        <ul>
+                            <li class="fragment fade-up">Most of time it is CG elements projected in the real world</li>
+                            <li class="fragment fade-up">Requires sensors to constantly capture the environment</li>
+                            <li class="fragment fade-up">The user still can distinguish real world from virtual one</li>
+                            <li class="fragment fade-up">Pokemon GO</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Mixed reality (MR)</h3>
+                        <ul>
+                            <li class="fragment fade-up">Real world and virtual world are tightly connected</li>
+                            <li class="fragment fade-up">Sensors are used on both sides</li>
+                            <li class="fragment fade-up">Real time interaction between both worlds</li>
+                            <li class="fragment fade-up">Hololens</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <img src="img/vr1.jpg">
+                    </section>
+                </section>
+                <section>
+                    <h2>How it works</h2>
+                    <section>
+                        <p>The content is rendered twice, once per eye.</p>
+                        <p class="fragment">Using a perspective angle for each eye.</p>
+                    </section>
+                    <section>
+                        <img src="img/vr2.png">
+                    </section>
+                </section>
+                <section>
+                    <h2>VR Scope</h2>
+                    <section>
+                        <h3>Frameworks</h3>
+                        <ul>
+                            <li class="fragment fade-up">Unity & Unreal</li>
+                            <li class="fragment fade-up">Vulkan & VRPN</li>
+                            <li class="fragment fade-up">Aframe, PrimRose, React-vr & daydream</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>3D</h3>
+                        <ul>
+                            <li class="fragment fade-up">OpenGl</li>
+                            <li class="fragment fade-up">WebGl</li>
+                        </ul>
+                    </section>
+                    <section>
+                        <h3>Sensors</h3>
+                        <ul>
+                            <li class="fragment fade-up">Gyroscope</li>
+                            <li class="fragment fade-up">Cameras, including 360</li>
+                            <li class="fragment fade-up">Motion detection</li>
+                        </ul>
+                    </section>
+                    
+                    <section>
+                        <h3>Hardware</h3>
+                        <ul>
+                            <li class="fragment fade-up">Mobile <small>HTC vive</small></li>
+                            <li class="fragment fade-up">Oculus Rift & cardboard</li>
+                            <li class="fragment fade-up">Leapmotion & Kinect</li>
+                        </ul>
+                    </section>
+                </section>
+                <section>
+                    <h2>How is the VR doing Now?</h2>
+                </section>
+                <section>
+                    <h1>Question Time !</h1>
+                    <p>Thank you :)</p>
+                </section>
+            </div>
+        </div>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <script src="lib/js/head.min.js"></script>
+        <script src="js/reveal.js"></script>
 
-		<script>
-			// More info about config & dependencies:
-			// - https://github.com/hakimel/reveal.js#configuration
-			// - https://github.com/hakimel/reveal.js#dependencies
-			Reveal.initialize({
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        <script>
+            // More info about config & dependencies:
+            // - https://github.com/hakimel/reveal.js#configuration
+            // - https://github.com/hakimel/reveal.js#dependencies
+            Reveal.initialize({
+              controls: true,
+              progress: true,
+              history: true,
+              center: true,
+              transition: 'slide',
+              dependencies: [
+                {src: 'plugin/markdown/marked.js'},
+                {src: 'plugin/markdown/markdown.js'},
+                {src: 'plugin/notes/notes.js', async: true},
+                {src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                    hljs.initHighlightingOnLoad();
+                  }}
+              ]
+            });
+        </script>
+    </body>
 </html>
